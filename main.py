@@ -1,3 +1,4 @@
+from collections import Counter
 import random
 import string
 
@@ -186,8 +187,6 @@ def remove_less_than(s, threshold):
 #mn_in_mn({1, 2}, {1, 2, 3, 4})
 
 #remove_less_than({1, 5, 7, 2, 0, 9}, 5)
-
-from collections import Counter
 
 
 def unique_random_numbers():
