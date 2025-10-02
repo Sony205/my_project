@@ -13,4 +13,4 @@ class Countdown:
         return c
 
 for number in Countdown(5):
-    print(number)
+    print(number, end=' ')
