@@ -12,5 +12,7 @@ class Countdown:
         self.n -= 1
         return c
 
-for number in Countdown(5):
+n = 5
+print(f'Числа от {n} до 1')
+for number in Countdown(n):
     print(number, end=' ')

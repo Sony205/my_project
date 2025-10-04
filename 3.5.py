@@ -4,5 +4,7 @@ def fibonaccі(n):
         yield a
         a, b = b, a + b
 
-for num in fibonaccі(5):
+n = 5
+print(f'Первые {n} чисел Фибоначчи')
+for num in fibonaccі(n):
     print(num, end=' ')
